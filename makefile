@@ -23,3 +23,6 @@ clean:
 
 distclean: 
 	 rm -f ${OBJS} ${TARGETS} config.cache config.log makefile config.status
+
+install: 
+	 cp fabprobe_snd /usr/local/bin/
